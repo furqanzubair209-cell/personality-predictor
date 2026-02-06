@@ -1,0 +1,105 @@
+/* ===== Basic Reset ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color: #121212; /* Dark black background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #FFD700; /* Classic gold text */
+}
+
+.container {
+    background-color: #1c1c1c; /* Slightly lighter black card */
+    padding: 40px 50px;
+    border-radius: 20px;
+    max-width: 800px;
+    width: 100%;
+    box-shadow: 0 0 30px rgba(255, 215, 0, 0.5); /* Gold glow */
+    border: 2px solid #FFD700; /* Thin gold border */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    color: #FFD700;
+    text-shadow: 0 0 10px rgba(255, 215, 0, 0.7);
+}
+
+.question {
+    margin-bottom: 25px;
+    padding: 15px 20px;
+    background-color: #222; /* Slightly lighter black for question card */
+    border-radius: 12px;
+    border-left: 5px solid #FFD700;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.question:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.5);
+}
+
+.question p {
+    margin-bottom: 12px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFD700;
+}
+
+.options label {
+    display: block;
+    margin-bottom: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.options input {
+    margin-right: 10px;
+    accent-color: #FFD700; /* Gold radio buttons */
+}
+
+.options label:hover {
+    color: #fff700; /* Bright gold hover */
+}
+
+button {
+    display: block;
+    margin: 25px auto 0 auto;
+    padding: 14px 35px;
+    background: linear-gradient(45deg, #FFD700, #FFC107);
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+    color: #1c1c1c;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 0.4s;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.6);
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgba(255, 215, 0, 0.9);
+}
+
+#result {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #FFD700;
+    text-shadow: 0 0 10px rgba(255, 215, 0, 0.8);
+}
+
