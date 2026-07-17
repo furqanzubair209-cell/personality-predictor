@@ -31,17 +31,6 @@ It is **fully offline**, responsive, and visually appealing, making it perfect f
 ## Live Preview
 
 Open `index.html` in any modern browser to try the predictor.  
-
----
-## Project Structure
-
-personality-predictor/
--│
--├── index.html        # Main HTML file
--├── style.css         # CSS styling
--├── script.js         # Personality calculation logic
--└── README.md         # Project documentation
-
 ---
 ## How It Works
 - Questions are dynamically rendered using JavaScript.
